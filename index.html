@@ -289,7 +289,7 @@
     <div class="entry__body">
       <span class="entry__daytag">Day 4</span>
       <h2 class="entry__title">Component showcase goes multi-org</h2>
-      <p class="entry__text">Big session focused on the component showcase. Fixed a nasty password bug — Cancel and wrong passwords were letting users straight through. Replaced the old prompt() approach with a proper SHA-256 hashed overlay that only reveals the page on the correct password. Switched hosting from Netlify to GitHub Pages after hitting the free-tier credit limit — no credit system, unlimited deploys. Fixed a couple of broken GOV.UK components (footer and cookie banner rendering too wide in cards). Then expanded the showcase from 34 GOV.UK components to over 110 across 5 design systems: GOV.UK, DWP, MOJ, NHS and DfE — each using their own real CSS, with org-prefixed codes (GOV-01, DWP-01, MOJ-01 etc.) and a filter bar to view each org separately. Had to install Node.js to compile DWP's SCSS. Headers and footers for each org were written manually to stop them overflowing the cards.</p>
+      <p class="entry__text">Long session, lots going on. Started by fixing a password bug that was letting people straight through if they pressed Cancel — embarrassing. Also moved the whole thing off Netlify after hitting the free tier limit, over to GitHub Pages which is completely free. Then the big one: turned the component showcase into a proper multi-organisation reference tool — went from 34 GOV.UK components to over 110 across 5 government design systems (GOV.UK, DWP, MOJ, NHS and DfE), each with their own styling and a filter to switch between them. Had to install Node.js at one point which felt like a big deal. A lot of fiddly bits but really happy with how it turned out.</p>
       <div class="entry__tags">
         <span class="tag">component showcase</span>
         <span class="tag">GOV.UK</span>
@@ -314,7 +314,7 @@
     <div class="entry__body">
       <span class="entry__daytag">Day 3</span>
       <h2 class="entry__title">Dev diary goes live</h2>
-      <p class="entry__text">Came up with the idea of a dev diary today and built it in one session. Designed the layout — dark background, timeline feed, date column — then got it live on the web via Netlify. First time putting something live. Sorted the URL to jacksdevdiary.netlify.app. Set up a separate site for the HDB prototypes with its own landing page. Connected both sites to GitHub so Claude can push changes directly — no more manual uploading. Added password protection to all four prototype pages, a working burger menu linking to the prototypes, and a JDD favicon in the site colours.</p>
+      <p class="entry__text">Decided I wanted somewhere to document all of this, so built this diary in one session and got it live on the web — first time I've put anything online, which was a bit of a moment. Designed the whole layout from scratch. Set up a separate site for the HDB prototypes too, with its own landing page. Got GitHub connected properly so changes go live automatically without me having to upload anything manually — that bit alone felt like a big unlock. Locked down the prototype pages with passwords, added a burger menu and a little favicon.</p>
       <div class="entry__tags">
         <span class="tag">dev diary</span>
         <span class="tag">netlify</span>
@@ -336,7 +336,7 @@
     <div class="entry__body">
       <span class="entry__daytag">Day 2</span>
       <h2 class="entry__title">Case record mockups & GOV.UK research</h2>
-      <p class="entry__text">Thought through how an agent would actually view a case — the timeline, parallel journeys, accordion structure. Built 3 PNG mockups of a new case record design. Researched the GOV.UK design system for compliance, built a component showcase, and scanned DWP, HMRC, MOJ and other government design systems for cross-govt precedent.</p>
+      <p class="entry__text">Spent a session thinking through the caseworker side of things — how does someone actually read a case? Mapped out the timeline, the different journeys that can run at once, how it all fits on one screen. Turned that into 3 mockups of a new case record design. Also did a deep dive into the GOV.UK design system to make sure we're building things properly, and looked at what other government teams like DWP, MOJ and HMRC are doing for inspiration.</p>
       <div class="entry__tags">
         <span class="tag">agent tool</span>
         <span class="tag">mockups</span>
@@ -356,7 +356,7 @@
     <div class="entry__body">
       <span class="entry__daytag">Day 1</span>
       <h2 class="entry__title">Project started</h2>
-      <p class="entry__text">Kicked off the HDB Service project. Built two core HTML files — a citizen-facing registration journey and an agent-facing case management tool — both styled in the GOV.UK design system. Wired up a Google Sheet as a lightweight backend. Set up GitHub. Built an automated screenshot pipeline with a double-clickable Desktop shortcut, an interactive zoom/pan flow map of all 20 screens, and an optional account creation flow with passkey support.</p>
+      <p class="entry__text">Started the whole thing today with no coding background — just an idea and Claude. Got two working prototypes up: one for people applying for HDB, and one for the caseworkers on the other side processing those claims. Both actually look like a real government service, which still surprises me. Connected a Google Sheet to store the data, set up GitHub, and somehow ended up with an automated screenshot tool and an interactive map of all 20 screens by the end of the session. More than I expected to get done on day one.</p>
       <div class="entry__tags">
         <span class="tag">setup</span>
         <span class="tag">GOV.UK</span>
